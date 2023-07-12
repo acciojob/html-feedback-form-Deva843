@@ -8,6 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+<!-- 	this is for the header of the feedback form -->
+	<h1>Feedback Form</h1>
+<!-- 	actual code starts here -->
+	<form method ="POST">
+		<div>
+<!-- 			lable is used to empty box along with out side  -->
+			<lable for="name">Name</lable>
+			<input id="name" type="text" minlength="3" maxlength="50"/>
+		</div>
+		<div>
+			<lable for="portfolio">portfolio</lable>
+			 <input id="portfolio" type="url"/>
+		</div>
+		<div>
+		<lable for="favcolor">favcolor</lable>
+			<input type="color" id="favcolor"/>
+		</div>
+		<div>
+			<lable for="likeness">Likeness</lable>
+			<input type = "range" min = "1" max ="100"/>
+		</div>
+			
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
